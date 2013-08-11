@@ -2,8 +2,7 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 
 import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
+import javax.script.ScriptEngineManager
 
 public class g { public static void main(String[] args) {
 ScriptEngine engine =

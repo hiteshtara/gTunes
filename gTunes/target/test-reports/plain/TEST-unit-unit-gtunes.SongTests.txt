@@ -1,0 +1,17 @@
+Testsuite: gtunes.SongTests
+Tests run: 1, Failures: 0, Errors: 1, Time elapsed: 0.294 sec
+------------- Standard Output ---------------
+--Output from testSomething--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testSomething--
+------------- ---------------- ---------------
+
+Testcase: testSomething took 0.155 sec
+	Caused an ERROR
+No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]
+Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()
+groovy.lang.MissingMethodException: No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]
+Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()
+	at gtunes.SongTests.testSomething(SongTests.groovy:15)
+

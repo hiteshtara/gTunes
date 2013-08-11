@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="new-host.home" name="gtunes.SongTests" tests="1" time="0.294" timestamp="2013-07-21T03:46:31">
+  <properties />
+  <testcase classname="gtunes.SongTests" name="testSomething" time="0.166">
+    <error message="No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]&#xa;Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]
+Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()
+	at gtunes.SongTests.testSomething(SongTests.groovy:15)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+  <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+</testsuite>

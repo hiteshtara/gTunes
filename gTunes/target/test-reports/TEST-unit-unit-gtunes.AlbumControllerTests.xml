@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="5" hostname="new-host.home" name="gtunes.AlbumControllerTests" tests="8" time="2.834" timestamp="2013-07-21T03:46:27">
+  <properties />
+  <testcase classname="gtunes.AlbumControllerTests" name="testIndex" time="1.434" />
+  <testcase classname="gtunes.AlbumControllerTests" name="testList" time="0.535" />
+  <testcase classname="gtunes.AlbumControllerTests" name="testCreate" time="0.135" />
+  <testcase classname="gtunes.AlbumControllerTests" name="testSave" time="0.198">
+    <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/album/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ad5d980&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/album/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ad5d980
+
+	at gtunes.AlbumControllerTests.testSave(AlbumControllerTests.groovy:48)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.AlbumControllerTests" name="testShow" time="0.203">
+    <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testShow(AlbumControllerTests.groovy:62)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.AlbumControllerTests" name="testEdit" time="0.084">
+    <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testEdit(AlbumControllerTests.groovy:80)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.AlbumControllerTests" name="testUpdate" time="0.078">
+    <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testUpdate(AlbumControllerTests.groovy:100)
+</failure>
+  </testcase>
+  <testcase classname="gtunes.AlbumControllerTests" name="testDelete" time="0.09">
+    <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testDelete(AlbumControllerTests.groovy:144)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+  <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="5" hostname="new-host.home" id="0" name="AlbumControllerTests" package="gtunes" tests="8" time="2.834" timestamp="2013-07-21T03:46:27">
+      <properties />
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testIndex" time="1.434" />
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testList" time="0.535" />
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testCreate" time="0.135" />
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testSave" time="0.198">
+          <failure message="Assertion failed: &#xa;&#xa;assert response.redirectedUrl == &apos;/album/show/1&apos;&#xa;       |        |             |&#xa;       |        null          false&#xa;       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ad5d980&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert response.redirectedUrl == &apos;/album/show/1&apos;
+       |        |             |
+       |        null          false
+       org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@6ad5d980
+
+	at gtunes.AlbumControllerTests.testSave(AlbumControllerTests.groovy:48)
+</failure>
+
+      </testcase>
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testShow" time="0.203">
+          <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testShow(AlbumControllerTests.groovy:62)
+</failure>
+
+      </testcase>
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testEdit" time="0.084">
+          <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testEdit(AlbumControllerTests.groovy:80)
+</failure>
+
+      </testcase>
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testUpdate" time="0.078">
+          <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testUpdate(AlbumControllerTests.groovy:100)
+</failure>
+
+      </testcase>
+
+      <testcase classname="gtunes.AlbumControllerTests" name="testDelete" time="0.09">
+          <failure message="Assertion failed: &#xa;&#xa;assert album.save() != null&#xa;       |     |      |&#xa;       |     null   false&#xa;       gtunes.Album : (unsaved)&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Assertion failed: 
+
+assert album.save() != null
+       |     |      |
+       |     null   false
+       gtunes.Album : (unsaved)
+
+	at gtunes.AlbumControllerTests.testDelete(AlbumControllerTests.groovy:144)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testIndex--
+--Output from testList--
+--Output from testCreate--
+--Output from testSave--
+--Output from testShow--
+--Output from testEdit--
+--Output from testUpdate--
+--Output from testDelete--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="new-host.home" id="1" name="AlbumTests" package="gtunes" tests="1" time="0.136" timestamp="2013-07-21T03:46:30">
+      <properties />
+
+      <testcase classname="gtunes.AlbumTests" name="testSomething" time="0.051">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.AlbumTests.testSomething(AlbumTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="new-host.home" id="2" name="SongControllerTests" package="gtunes" tests="1" time="0.216" timestamp="2013-07-21T03:46:30">
+      <properties />
+
+      <testcase classname="gtunes.SongControllerTests" name="testSomething" time="0.159">
+          <failure message="junit.framework.AssertionFailedError: Implement me" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: junit.framework.AssertionFailedError: Implement me
+	at gtunes.SongControllerTests.testSomething(SongControllerTests.groovy:15)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="0" hostname="new-host.home" id="3" name="SongTests" package="gtunes" tests="1" time="0.294" timestamp="2013-07-21T03:46:31">
+      <properties />
+
+      <testcase classname="gtunes.SongTests" name="testSomething" time="0.166">
+          <error message="No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]&#xa;Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()" type="groovy.lang.MissingMethodException">groovy.lang.MissingMethodException: No signature of method: gtunes.SongTests.mock() is applicable for argument types: (java.lang.Class) values: [class gtunes.Song]
+Possible solutions: mockFor(java.lang.Class), mockFor(java.lang.Class, boolean), each(groovy.lang.Closure), wait(), dump(), grep()
+	at gtunes.SongTests.testSomething(SongTests.groovy:15)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="new-host.home" id="4" name="StoreControllerTests" package="gtunes" tests="1" time="0.19" timestamp="2013-07-21T03:46:31">
+      <properties />
+
+      <testcase classname="gtunes.StoreControllerTests" name="testSomething" time="0.188" />
+
+      <system-out><![CDATA[--Output from testSomething--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from testSomething--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

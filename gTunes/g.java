@@ -1,9 +1,4 @@
-import java.io.FileNotFoundException;
-
-
-import javax.script.ScriptEngine;
-import javax.script.ScriptEngineManager
-
+i
 public class g { public static void main(String[] args) {
 ScriptEngine engine =
 new ScriptEngineManager().getEngineByName("groovy"); 
